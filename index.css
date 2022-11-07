@@ -1,8 +1,12 @@
 body {
   padding: 0;
   margin: 0;
+  font-family:NCAA;
 }
-
+@font-face{
+  font-family: "NCAA";
+  src:url(./fonts/NCAA_UConn_Huskies_Extended.ttf) format("truetype");
+}
 .uconn-header {
   height: 63px;
   background-color: #0c2240;
@@ -16,7 +20,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: #fff;
-  text-shadow: 2px 2px 2px orange;
+  text-shadow: 2px 2px 2px red;
 }
 
 .uconn-header .logo img {
@@ -175,8 +179,13 @@ body {
   justify-content: center;
 }
 
+span{
+  font-size: 30px;
+}
+
 .uconn-footer .title-line {
   padding: 0 10px;
+  font-family: sans-serif;
 }
 
 .uconn-footer .footer-image {
@@ -187,6 +196,8 @@ body {
   width: 150px;
   padding: 0 20px;
 }
+
+
 
 .footer-image-text {
   text-align: center;

@@ -1,0 +1,200 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.uconn-header {
+  height: 63px;
+  background-color: #0c2240;
+  display: flex;
+  justify-content: space-between;
+}
+
+.uconn-header .logo {
+  display: flex;
+  line-height: 63px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 2px orange;
+}
+
+.uconn-header .logo img {
+  height: 50px;
+  margin: 6.5px;
+}
+
+.uconn-header .navs {
+  display: flex;
+  line-height: 63px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.uconn-header .navs .nav-item {
+  padding: 0 20px;
+  border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.uconn-banner {
+  height: 864px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.uconn-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.uconn-card .card-wrap {
+  margin: 60px 0;
+  width: 25%;
+  box-sizing: border-box;
+  height: 464px;
+}
+
+.uconn-card .card-wrap .card {
+  width: 273px;
+  height: 464px;
+  /* box-sizing: border-box; */
+  /* border: 10px solid #A9ACB1; */
+  background-color: #a9acb1;
+  /* padding: 10px 0; */
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card .card-text {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.card .card-text .card-block {
+  width: 60%;
+  background-color: #c7c7c7;
+  height: 22px;
+  margin: 10px auto;
+  border-radius: 999px;
+}
+
+.uconn-carousel {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.uconn-carousel .carousel {
+  display: flex;
+  position: relative;
+  left: -28%;
+}
+
+.uconn-carousel .carousel img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.carousel img:nth-child(3) {
+  opacity: 1;
+}
+
+.uconn-carousel .carousel-btns {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.uconn-carousel .carousel-btns .left,
+.uconn-carousel .carousel-btns .right {
+  margin: 0 5px;
+}
+
+.uconn-logos {
+  height: 1200px;
+  position: relative;
+  padding: 50px;
+}
+
+.uconn-logos img {
+  width: 200px;
+  position: absolute;
+}
+
+.uconn-logos img:nth-child(2) {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.uconn-logos img:nth-child(3) {
+  position: absolute;
+  top: 400px;
+  left: 500px;
+}
+
+.uconn-logos img:nth-child(4) {
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+.uconn-logos img:nth-child(5) {
+  position: absolute;
+  top: 800px;
+  left: 1000px;
+}
+
+.uconn-logos img:nth-child(6) {
+  position: absolute;
+  top: 1000px;
+  left: 1200px;
+}
+
+.uconn-footer {
+  padding: 50px 0;
+}
+
+.uconn-footer .footer-title {
+  display: flex;
+  justify-content: center;
+}
+
+.uconn-footer .title-line {
+  padding: 0 10px;
+}
+
+.uconn-footer .footer-image {
+  text-align: center;
+}
+
+.footer-image img {
+  width: 150px;
+  padding: 0 20px;
+}
+
+.footer-image-text {
+  text-align: center;
+  font-size: 55px;
+  color: #182440;
+}
+
+.footer-text {
+  text-align: center;
+  color: #182440;
+}

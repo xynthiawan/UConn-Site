@@ -1,9 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
+			"name": "UConn-Site",
 			"path": "."
 		}
 	]
